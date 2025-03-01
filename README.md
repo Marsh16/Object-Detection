@@ -57,6 +57,6 @@ def predict_image(image_path, api_url):
         return {"error": f"Request failed with status code {response.status_code}"}
 
 image_path = "path/to/your/image.jpg" #replace with your image path
-api_url = "[http://127.0.0.1:6060/predict](http://127.0.0.1:6060/predict)" #local api url, change if needed
+api_url = "[http://127.0.0.1:6060/api/predict](http://127.0.0.1:6060/api/predict)" #local api url, change if needed
 results = predict_image(image_path, api_url)
 print(json.dumps(results, indent=4))

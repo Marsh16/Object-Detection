@@ -1,0 +1,6 @@
+supervision
+inference
+cv2
+numpy
+flask
+base64
